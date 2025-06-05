@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1749039018 source:c:\users\illas\onedrive\desktop\labwork_10\lw_10_bmtp\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<set>
+	<cctype>
+	<algorithm>
+	<ctime>
+	<locale.h>
+	<windows.h>
+
