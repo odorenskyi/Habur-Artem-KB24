@@ -35,8 +35,8 @@ void printValues(double x, double y, double z) {
 #include <cctype>
 
 void task10_1() {
-    std::ifstream fin("vkhid.txt");
-    std::ofstream fout("vykhid.txt");
+    std::ifstream fin("input.txt");
+    std::ofstream fout("output.txt");
 
     if (!fin.is_open() || !fout.is_open()) {
         std::cerr << "Не вдалося відкрити файли.\n";
@@ -47,7 +47,7 @@ void task10_1() {
     getline(fin, input);
 
     // Авторська інформація
-    fout << "Розробник: Габур Артем, КПІ, Київ, Україна, 2025\n";
+    fout << "Розробник: Габур Артем, ЦНТУ, Кропивницький, Україна, 2025\n";
 
     // Перевірка: це слово чи знак пунктуації?
     bool isWord = true;
@@ -79,10 +79,10 @@ void task10_1() {
 #include <ctime>
 
 void task10_2() {
-    std::ofstream fout("vykhid.txt", std::ios::app); // відкриваємо для допису
+    std::ofstream fout("output.txt", std::ios::app); // відкриваємо для допису
 
     if (!fout.is_open()) {
-        std::cerr << "Не вдалося відкрити vykhid.txt для допису.\n";
+        std::cerr << "Не вдалося відкрити output.txt для допису.\n";
         return;
     }
 
@@ -106,7 +106,7 @@ void task10_2() {
 //10.3
 void task10_3() {
     std::ifstream fin("numbers.txt"); // x y z b
-    std::ofstream fout("vykhid.txt", std::ios::app);
+    std::ofstream fout("output.txt", std::ios::app);
 
     if (!fin.is_open() || !fout.is_open()) {
         std::cerr << "Помилка відкриття файлів.\n";
