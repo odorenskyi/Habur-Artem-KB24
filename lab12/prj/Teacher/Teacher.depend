@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1750098451 source:c:\users\illas\onedrive\desktop\labwork_12\prj\teacher\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<cmath>
+	<iomanip>
+	<algorithm>
+	<windows.h>
+

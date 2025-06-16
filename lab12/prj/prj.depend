@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1750089778 source:c:\users\illas\onedrive\desktop\labwork_12\prj\main.cpp
+	<iostream>
+	<stdexcept>
+	<iomanip>
+	<limits>
+	<cmath>
+	<windows.h>
+
